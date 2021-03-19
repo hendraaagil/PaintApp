@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/pen"
+        android:icon="@drawable/ic_baseline_brush_24"
+        android:title="Pen"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/eraser"
+        android:icon="@drawable/ic_baseline_delete_sweep_24"
+        android:title="Eraser"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/clear"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Clear"
+        app:showAsAction="always" />
+
+</menu>
